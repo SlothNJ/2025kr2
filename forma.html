@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Кофейня «Уют & Кофе»</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body id="page">
+    <header>
+        <nav class="navigation">
+        <ul>
+            <li class="nav-but"> <a href="./index.html">Главная</a> </li>
+            <li class="nav-but"> <a href="./index.html #about">О нас</a> </li>
+            <li class="nav-but"> <a href="./menu.html">Меню</a> </li>
+            <li class="nav-but"> <a href="./forma.html"><u>Отзывы</u></a> </li>
+        </ul>
+        </nav>
+    </header>
+    <main class="otsivi">
+        <div>
+         <h2 class = "reg-title"> Зарегистрируйтесь для того, чтобы оставить отзыв!</h3>
+        <form class = "form" action = "https://www.bing.com/search?" method = "get" target = "_blank">
+            <input type="hidden"  name="q" value="search">
+
+        <p><label for = "lastname"> Фамилия </label><input type = "text" name = "surname" required></p>
+        <p><label for = "name"> Имя </label><input type = "text" id = "name"></p>
+        <p><label for = "groupnumber"> Номер группы </label><input type = "number" id = "groupnumber"></p>
+        <p><label for = "email"> E-mail </label><input type = "email" id = "email"></p>
+        <p><label for = "date"> Дата отправки </label><input type = "date" id = "data"></p>
+        <button type = "submit"> Отправить данные </button>
+
+        </form> </div>
+
+
+        <table class="table" cellspacing="0" cellpadding="10" border ="2"  width="700px" background = "images.jpg">
+  <thead>
+    <tr>
+      <th colspan="3" bgcolor="#1e1209">Некоторые отзывы</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Аватарка</td>
+      <td>Оценка</td>
+      <td>Отзыв</td>
+    </tr>
+    <tr>
+      <td><a href="./ava1.png" target="_blank"><img src="ava1.png" width="100px"></a></td>
+      <td>7</td>
+      <td>В целом все понравилось, но можно было и лучше</td>
+    </tr>
+    <tr>
+      <td><a href="./ava2.png"><img src="ava2.png" width="100px"></a></td>
+      <td>9</td>
+      <td>Все очень круто, буду заказывать и дальше!</td>
+    </tr>
+  </tbody>
+</table>
+
+        <div>
+        <h2 class = "otsiv"> Форма для отзыва </h3>
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <input type="hidden"  name="q" value="search">
+         <p> Укажите Ваш пол:
+        <input type="Radio" name="gender" value="female"> Женский
+        <input type="Radio" name="gender" value="male" checked > Мужской
+        </p>
+        <p> Сколько раз вы уже заказывали у Нас?:
+        <input type="Checkbox" name="visiting"  value="0"> 0 раз
+        <input type="Checkbox"  name="visiting"   value="1-2" checked> 1-2 раза
+        <input type="Checkbox" name="visiting" value="3+"> 3 и более
+    </p>
+    <p> Поле для отзыва:
+        <br>
+        <TEXTAREA cols=80 rows=4 name="textarea" > Ваш отзыв... </TEXTAREA>
+    </p>
+    <p> Дата рождения : <input type="date" name="user_date"  value='birth_data'></p>
+    <p> Пароль: <input type="password" name="password" size=9  value="123"></p>
+    <input type="hidden" name="page_id"  value="4">
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+    </form> </div>
+    </main> 
+    <footer><address>Почта: lvbykov@edu.hse.ru</address></footer>
+</body>
+</html>

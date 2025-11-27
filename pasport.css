@@ -1,0 +1,69 @@
+.pasport_page_switch {
+    background-image: url(pasport.jpg);
+    background-repeat: no-repeat;
+    height: 731px;
+    /* display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center; */
+}
+.pasport_page_switch p {
+    color: black;
+}
+.str1 {
+    position: absolute;
+    top: 155px;
+    left: 150px;
+}
+.str2 {
+    position: absolute;
+    top: 185px;
+    left: 200px;
+}
+.str3 {
+    position: absolute;
+    top: 240px;
+    left: 110px;
+}
+.str4 {
+    position: absolute;
+    top: 240px;
+    left: 330px;
+}
+.surname {
+    position: absolute;
+    top: 490px;
+    left: 280px;
+}
+.name {
+    position: absolute;
+    top: 545px;
+    left: 280px;
+}
+.otch {
+    position: absolute;
+    top: 575px;
+    left: 280px;
+}
+.pol {
+    position: absolute;
+    top: 600px;
+    left: 210px;
+}
+.data {
+    position: absolute;
+    top: 600px;
+    left: 320px;
+}
+.city {
+    position: absolute;
+    top: 626px;
+    left: 280px;
+}
+.obl {
+    position: absolute;
+    top: 660px;
+    left: 280px;
+}

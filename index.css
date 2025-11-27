@@ -1,0 +1,179 @@
+body {
+    background-image: repeating-linear-gradient(90deg,#392514 0 30px, #452f1c 150px 180px, #392514 300px 300px);
+    color: #d18747;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+    font-size:larger;
+    font-weight: bolder;
+}
+header {
+    background-color: #c58a5546;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    margin: 5px;
+}
+.navigation {
+    background-color:#bb855546;
+    margin: 5px;
+    border: 3px solid transparent;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.nav-but {
+    text-transform: uppercase;
+    font-size: larger;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.nav-but a {
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.nav-but a:hover{
+    background-color: #88613f;
+    color: #dcb390fe;
+}
+
+
+.topic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.topic-text {
+    max-height: 400px;
+    max-width: 50%;
+    border: 5px solid #88613f;
+    border-radius: 10px;
+    background-color: #926f5026;
+    padding: 30px;
+    font-size: xx-large;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topic-text h3 {
+    text-align: center;
+}
+.topic img {
+    background-image: radial-gradient(circle closest-side,#9f7a5a, transparent);
+}
+
+#adv {
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+}
+.adv-global {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 1fr 1fr;
+    gap: 10%;
+    justify-content: center;
+    
+
+}
+ol li::marker {font-size: 34px;}
+ol li {
+    background-color: #291a0e53;
+    padding-left: 20px;
+}
+.adv h3 {
+    font-size: larger;
+    font-weight: 1000;
+    color: #d3b9a2;
+}
+.about-us h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+}
+.about-us p {
+    display: inline-block;
+    font-size: larger;
+    padding: 0px 50px;;
+}
+.about-us h4 {
+    margin-left: 20%;
+}
+.niz {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+    margin-top: 80px;
+}
+.naverx-block {
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    background-color: #2f1702;
+
+}
+.mobile-app {
+    color: rgb(248, 224, 197);
+}
+footer {
+    height: 50px;
+    background-color: rgb(43, 30, 17);
+    margin: -7px;
+    margin-top: auto;
+    margin-bottom: -10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Меню */
+
+#page {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.task, .pasport {
+    background-color: grey;
+    border-radius: 5px;
+    align-content: center;
+}
+.task img, .pasport img{
+    height:min(500px, 50vw);
+
+}
+.task h2, .pasport h2 {
+    text-align: center;
+    background-color: #2f1702;
+}
+
+.task-page h3, .vvod, .result{
+    background-color: #1e1209;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-size: auto;
+}
+.task-page {
+    justify-items: center;
+}
+.otsivi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
