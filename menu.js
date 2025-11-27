@@ -15,12 +15,12 @@ async function getResponce() {
     let menu = document.getElementById("menu")
     for (key in content) {
         menu.innerHTML += `
-        <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
+        <li style="width: 210px" class="coffie">
         <img style="width: 180px" class="align-self-center" src=${content[key].img}>
-        <h5 class="card-subtitle">${content[key].title}</h5>
-        <p class="card-text">${content[key].description}. Цена ${content[key].price} р.</p>
+        <h2>${content[key].title}</h5>
+        <p>${content[key].description}. Цена ${content[key].price} р.</p>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
-        <p class="card-text" >Заказать <input class="w-25" type="number" name="amount" value="0"></p>
+        <p class="plus_but"><input type="Submit" name="submit"  value="+"></p>
         </li>
                 `
     }
