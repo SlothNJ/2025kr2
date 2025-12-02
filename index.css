@@ -146,19 +146,30 @@ footer {
     flex-wrap: wrap;
 }
 .coffie {
-    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(grey, #796e41);
+    justify-content: space-between;
     border-radius: 15px;
-    align-content: center;
     flex-shrink: 2;
 }
+.verh {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
 .plus_but {
+    display: inline-block;
     background-color: rgb(203, 136, 136);
     border-radius: 25px;
+    text-align: center;
 }
 .coffie h2 {
     text-align: center;
     background-color: #2f1702;
+
 }
+
 
 .task-page h3, .vvod, .result{
     background-color: #1e1209;

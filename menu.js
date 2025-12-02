@@ -16,16 +16,15 @@ async function getResponce() {
     for (key in content) {
         menu.innerHTML += `
         <li style="width: 210px" class="coffie">
+        <div class="verh">
         <img style="width: 180px" class="align-self-center" src=${content[key].img}>
         <h2>${content[key].title}</h5>
         <p>${content[key].description}. Цена ${content[key].price} р.</p>
-        <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
+        <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}></div>
         <p class="plus_but"><input type="Submit" name="submit"  value="+"></p>
-        </li>
-                `
+        </li>        `
     }
 
 
 }
-
 getResponce()
